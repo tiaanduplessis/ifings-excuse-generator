@@ -1,0 +1,16 @@
+{
+    "name": "ifings-excuse-generator",
+    "description": "Working remotely. Made easy.",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "parcel index.html",
+        "build": "parcel build index.html",
+        "deploy": "parcel build index.html; surge dist/ --domain ifings-excuse-generator.surge.sh"
+    },
+    "dependencies": {
+        "get-random-excuse": "^1.0.0"
+    },
+    "devDependencies": {
+        "parcel-bundler": "^1.9.7"
+    }
+}
